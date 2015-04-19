@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Rahul Rawat | Home</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href = "css/bootstrap.min.css" rel = "stylesheet">
+                <link href = "css/styles.css" rel = "stylesheet">
+                <link rel="icon" href="assets/factory26.png">
+                <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+                <style>
+                  .jumbotron {
+                    
+                    /*position: fixed;*/
+                    background : url("assets/images/portfolioback.jpg") center no-repeat;
+                    width: 100%;
+                    padding-top: 125px;
+                    padding-bottom: 125px;
+                    font-family: "gaspar", Arial, serif;
+                    color: white;
+                  }
+                  .jumbotron h1,
+                  .jumbotron .h1 {
+                    font-size: 100px;
+                    font-weight: bold;
+                  }
+                  .navbar{
+                    margin-bottom: 0px;
+                  }
+                  .btn-primary{
+                    color: white;
+                  }
+                  .nav-header{
+                    padding-left: 15px;
+                    font-size: 12px;
+                  }
+                  .nav-dropdown{
+                    font-size: 12px;
+                  }
+                  .dropdown-menu .divider{
+                      background-color: gray;
+                    }
+                </style>
+
+        </head>
+        <body>
+
+                <div class = "navbar navbar-default navbar-fixed-top">
+                        <div class = "container">
+
+                                <!--<a href = "#" class = "navbar-brand">Rahul Rawat</a>-->
+
+                                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                </button>
+
+                                <div class = "collapse navbar-collapse navHeaderCollapse">
+
+                                        <ul class = "nav navbar-nav navbar-right">
+
+                                                <li><a href = "index.html">Home</a></li>
+                                                <li><a href = "blog.html">Blog</a></li>
+                                                <li><a href = "experience.html">Experience</a></li>
+                                                <li class = "active"><a href = "portfolio.html">Portfolio</a></li>
+                                                <li class = "dropdown">
+
+                                                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+                                                        <ul class = "dropdown-menu">
+                                                                <li><a href = "https://twitter.com/WhyHelloRahul">Twitter</a></li>
+                                                                <li><a href = "https://www.facebook.com/profile.php?id=686520863">Facebook</a></li>
+                                                        </ul>
+
+                                                </li>
+                                                <li><a href = "#">About</a></li>
+                                                <li><a href = "#contact" data-toggle="modal">Contact</a></li> 
+                                                <form class="navbar-form navbar-left" role="navigation" style = "padding: 1.2% 0">
+                                                    <a class="btn btn-info btn-sm" aria-label="Left Align" href="assets/resume.pdf" target="_blank">
+                                                    <span class="glyphicon glyphicon-print" aria-hidden="true"></span> View Printable Resume 
+                                                    </a>
+                                                </form>
+                                        </ul>
+
+                                </div>
+
+                        </div>
+                </div>
+
+                <!-- _____________________________OVERHEARD ENDS________________________________ -->
+    <div class = "container">
+    <div class = "jumbotron">
+                            <center><h1>Portfolio</h1>
+                            <p> A list of current and ongoing projects</p></center>
+    </div>
+    </div>
+
+
+<section id="marsrover">
+  <div class="container">
+    <h1>
+      <b>UWaterloo Mars Rover Team</b>
+    </h1>
+    <span class="label label-success" style="font-size:medium">Student Design Team</span>
+    <a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+       <!--<b><i class="fa fa-hand-o-up"></i> Projects</b>-->
+    </a>
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p>
+          Role: Team Lead (formerly Embedded Software Developer)
+        </p>
+        <p>
+          The UW Mars Rover named Arthrobot is created in hopes to compete in the University Rover Challenge (held in Hanksville, Utah) and European Rover Challenge (held in Poland). The Arthobot is a four-wheel independent steering exploration robot that can travers through rough terrain, analyze soil samples for signs of life, assist astronauts in various tasks, and manipulate equipment on-site equipment using its fine motion manipulator. Development of the rover is done on the ROS (Robotics Operating System) Open Source framework. A demonstration of the robots capabilities can be seen <a href="https://www.youtube.com/watch?v=5I9JXH_UNOU" target="new">here</a> as narrated by me.
+        </p>
+        <font size="3">Contributions</font>
+        <ul>
+          <li>Research and developed four-wheel independent steering system and swerve drive algorithm</li>
+          <li>Developed on-board multiaxis camera control system</li>
+          <li>Designed and created Arduino shield-like PCB to simply wiring for servos, sensors and allow for power extention of Orion RobotClaw Motor Controllers</li>
+          <li>Implemented safety features and bumper sensors to prevent harmful overextention of the rover's arm</li>
+          <li>Developed display to show crucial data while performing field tests</li>
+          <li>Implemented smart power distribution system allow safe power usage of the batteries on the rover</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <font size="5">Gallery</font>
+        <div id="carousel-marsrover" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-marsrover" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-marsrover" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/marsrover/pic0.jpg">
+              <div class="carousel-caption">
+                <h4>Arthrobot in-action</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/marsrover/pic1.jpg">
+              <div class="carousel-caption">
+                <h4>The team (I'm in the center!)</h4>
+              </div>
+            </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-marsrover" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-marsrover" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="robotracing">
+  <div class="container">
+    <h1 style="margin-top:100px">
+      <b>UWaterloo Robot Racing Team</b>
+    </h1>
+    <span class="label label-success" style="font-size:medium">Student Design Team</span>
+    <a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <!--<b><i class="fa fa-hand-o-up"></i> Projects</b>-->
+    </a>
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p>
+          Role: Autonomy and Controls Development
+        </p>
+        <p>
+          The UWaterloo Robot Racing Team was created to promote research in autonomous mobile robotics and aspires to compete in the International Autonmous Robot Racing Challenge. Our robot can autonmously navigate through a circuit of pylons and compete in a one-on-one drag race using onboard LIDAR and GPS system. The robot is also outfitted with encoders whose data is processed in PID algorithms. 
+        </p>
+         <font size="3">Contributions</font> 
+         <p>
+           <ul>
+          <li>Developed steering algorithm</li>
+          <li>Created embedded software for onboard LCD module used for testing and displaying sensor data</li>
+          <li>Improved high level control algorithm used to autonoumously drive the robot through a circuit </li>
+        </ul>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <font size="5">Gallery</font>
+      <div id="carousel-robotracing" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-robotracing" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-robotracing" data-slide-to="1"></li>
+          <li data-target="#carousel-robotracing" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="assets/images/robotracing/pic0.jpg">
+            <div class="carousel-caption">
+              <h4>Robot Racer autonomously driving using LIDAR and path planning</h4>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/robotracing/pic1.jpg">
+            <div class="carousel-caption">
+              <h4>Chassis</h4>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/robotracing/pic2.jpg">
+            <div class="carousel-caption">
+              <h4>New RobotRacer performing drag race test</h4>
+            </div>
+          </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-robotracing" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-robotracing" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="robotarm">
+  <div class="container">
+    <h1 style="margin-top:100px">
+      <b>Mini Desktop Arm</b>
+    </h1>
+    <span class="label label-success" style="font-size:medium">Personal Project</span>
+    <a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <!--<b><i class="fa fa-hand-o-up"></i> Projects</b>-->
+    </a>
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p>
+          This is a small robotic arm you can use to help you sort out your messy desk! The robot has three different modes: Operator Mode, Teach and Autonomous Mode. Operator mode allows the user to control the robot's joint using a small controller board. Teach mode records the user's movements on the controller and autonomous mode repeats what it is tauch in a repetitive motions. Future developments will allow the robot to use vision algorithm to sort individual items (ex. pens, eraser, coins etc.) and will be using a vacuum pump instead of arm.  
+        </p>
+        <font size="5">Materials</font>
+        <ul>
+          <li>Arduino Mini Pro 5V</li>
+          <li>5 x 10k Potentiometers </li>
+          <li>5V Power Source</li>
+          <li>Wires, Button, Switch</li>
+          <li>Plastic chassis</li>
+          <li>LCD Monitor for testing</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <font size="5">Gallery</font>
+        <div id="carousel-atmega" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-atmega" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-atmega" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/atmega/board.jpg" style="width:555px;height:409px;display:block;margin-left:auto;margin-right:auto;">
+              <div class="carousel-caption">
+                <h4>EAGLE Board File</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/atmega/schematic.jpg" style="width:555px;height:409px;display:block;margin-left:auto;margin-right:auto;">
+              <div class="carousel-caption">
+                <h4>EAGLE Schematic File</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-atmega" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-atmega" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="musicplayer">
+  <div class="container">
+    <h1 style="margin-top:100px">
+      <b>Old Wooden Bluetooth Music Player</b>
+    </h1>
+    <span class="label label-info" style="font-size:medium">In Progress</span>
+    <a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <b><i class="fa fa-hand-o-up"></i> Projects</b>
+    </a>
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p>
+          I took a part an old wooden radio and re-connected its speakers to an external audio amplifier. The amplifier currently has female audio jack that can have any MP3 music player plugged into it. It will eventually be replaced by a bluetooth module to receive audio data and controlled through the Raspberry Pi. The webcam will stream live video to the Raspberry Pi and video processing will be done through OpenCV to allow for gesture playback controls.
+        </p>
+        <font size="5">Materials</font>
+        <ul>
+          <li>Old Radio with working speakers</li>
+          <li>PAM8403 Power Audio Amplifier</li>
+          <li>Raspberry Pi</li>
+          <li>Generic Webcam</li>
+          <li>Bluetooth Module</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <font size="5">Gallery</font>
+        <div id="carousel-musicplayer" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-musicplayer" data-slide-to="0" class="active"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/musicplayer/oldradio_icon.jpg" style="width:555px;height:409px;display:block;margin-left:auto;margin-right:auto;">
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-musicplayer" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-musicplayer" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="spock">
+  <div class="container">
+    <h1 style="margin-top:100px">
+      <b>SPOCK - <i>Smart Padlock</i></b>
+    </h1>
+    <span class="label label-info" style="font-size:medium">In Progress</span>
+    <a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <b><i class="fa fa-hand-o-up"></i> Projects</b>
+    </a>
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p>
+          I was tired of forgetting combinations and losing keys for padlocks so I decided to prototype a biometric finger scanning smart padlock. The mechancial housing and mechanism will be 3D printed and the finger print scanner will be used to activate a servo motor to trigger the access to the lock. I plan to eventually build a softwware platform ontop of the product such that flexible access can be given to other users who register their fingerprint with the Spock.
+        </p>
+        <font size="5">Materials</font>
+        <ul>
+          <li>Padlock</li>
+          <li>SparkFun Fingerprint Scanner - 5V TTL (GT-511C1R)</li>
+          <li>Small Servo Motor</li>
+          <li>6V Battery</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <font size="5">Gallery</font>
+        <div id="carousel-musicplayer" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-musicplayer" data-slide-to="0" class="active"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" style="width:555px;height:350px;">
+            <div class="item active">
+              <img src="assets/images/spock/spock_icon.jpg" style="display:block;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-musicplayer" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-musicplayer" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+ <!--________________________Underhead Begins ________________________-->
+
+                <hr class="style-one">
+
+                <div>
+                    <ul class="list-inline text-center" style="padding: 1% 0">
+                        <li><a target="new" href="https://twitter.com/WhyHelloRahul" class="btn btn-md btn-info"><i class = "fa fa-twitter fa-lg"></i></a></li>
+                        <li><a target="new" href="https://www.linkedin.com/in/rahulraw" class="btn btn-md btn-info"><i class="fa fa-linkedin fa-lg"></i></i></a></li>
+                        <li><a target="new" href="https://github.com/rahulraw" class="btn btn-md btn-info"><i class="fa fa-github-alt fa-lg"></i></a></li>
+                    </ul>
+                    <ul class="list-inline text-center" style="padding: 1% 0">
+                        Rahul Rawat &copy 2015 All Rights Reserved
+                    </ul>
+                </div>
+
+<!-- References
+    Robot Arm Tab Icon:
+    <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+-->
+
+      <!-- Javascript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src = "js/bootstrap.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- Tooltip Popover JS 
+      <script src="assets/js/bootstrap-tooltip.js"></script>
+      <script src="assets/js/bootstrap-popover.js"></script>
+
+       Scrolling JavaScript 
+      <script src="assets/js/jquery.easing.min.js"></script>
+      <script src="assets/js/scrolling-nav.js"></script>
+
+       Dropdown JS 
+      <script src="assets/js/bootstrap-dropdown.js"></script>
+      <script src="assets/js/bootstrap-hover-dropdown.js"></script>
+      -->
+      <script>
+      $("[rel='tooltip']").tooltip();    
+
+      $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+          },
+          function(){
+            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+          }
+          ); 
+
+      $('.subnav').affix({
+        offset: {
+          top: $('#navtop').height()
+        }
+      }); 
+
+      </script>
+
+    </body>
+    </html>
