@@ -11,11 +11,10 @@
 
                 <style>
                   .jumbotron {
-                    
+                    background : url("assets/images/portfolioback.jpg");
                     /*position: fixed;*/
-                    background : url("assets/images/portfolioback.jpg") center no-repeat;
                     width: 100%;
-                    padding-top: 125px;
+                    padding-top: 200px;
                     padding-bottom: 125px;
                     font-family: "gaspar", Arial, serif;
                     color: white;
@@ -74,7 +73,7 @@
                                                         </ul>
 
                                                 </li>
-                                                <li><a href = "#">About</a></li>
+                                                <li><a href = "about.html">About</a></li>
                                                 <li><a href = "#contact" data-toggle="modal">Contact</a></li> 
                                                 <form class="navbar-form navbar-left" role="navigation" style = "padding: 1.2% 0">
                                                     <a class="btn btn-info btn-sm" aria-label="Left Align" href="assets/resume.pdf" target="_blank">
@@ -89,21 +88,23 @@
                 </div>
 
                 <!-- _____________________________OVERHEARD ENDS________________________________ -->
-    <div class = "container">
+
     <div class = "jumbotron">
                             <center><h1>Portfolio</h1>
-                            <p> A list of current and ongoing projects</p></center>
+                            <p> A list of current and ongoing projects</p>
+                            <a class = "btn btn-primary" href = "#studentdesign">Student Design Teams</a>
+                            <a class = "btn btn-warning" href = "#personal">Personal Projects</a></center>
     </div>
-    </div>
+            
 
-
+<section id="studentdesign">
 <section id="marsrover">
   <div class="container">
     <h1>
       <b>UWaterloo Mars Rover Team</b>
     </h1>
-    <span class="label label-success" style="font-size:medium">Student Design Team</span>
-     <!--<a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+    <span class="label label-primary" style="font-size:medium">Student Design Team</span>
+    <!--<a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
       <b><i class="fa fa-hand-o-up"></i> Projects</b>
     </a>-->
     <hr class="style-three">
@@ -162,14 +163,16 @@
       </div>
     </div>
   </div>
+  </div>
 </section>
+      
 
 <section id="robotracing">
   <div class="container">
     <h1 style="margin-top:100px">
       <b>UWaterloo Robot Racing Team</b>
     </h1>
-    <span class="label label-success" style="font-size:medium">Student Design Team</span>
+    <span class="label label-primary" style="font-size:medium">Student Design Team</span>
     <!--<a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
       <b><i class="fa fa-hand-o-up"></i> Projects</b>
     </a>-->
@@ -189,8 +192,7 @@
           <li>Developed steering algorithm</li>
           <li>Created embedded software for onboard LCD module used for testing and displaying sensor data</li>
           <li>Improved high level control algorithm used to autonoumously drive the robot through a circuit </li>
-        </ul>
-      </p>
+        </p>
     </div>
     <div class="col-md-6">
       <font size="5">Gallery</font>
@@ -205,21 +207,21 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <img src="assets/images/robotracing/pic0.jpg">
+            <img src="assets/images/robotracing/pic0.jpg" style="width:560px;height:434px;center;">
             <div class="carousel-caption">
               <h4>Robot Racer autonomously driving using LIDAR and path planning</h4>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/robotracing/pic1.jpg">
+            <img src="assets/images/robotracing/pic1.jpg" style="width:560px;height:434px;center;overflow: hidden;">
             <div class="carousel-caption">
               <h4>New RobotRacer Chassis</h4>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/robotracing/pic2.jpg">
+            <img src="assets/images/robotracing/pic2.jpg" style="width:560px;height:434px;center;overflow: hidden;">
             <div class="carousel-caption">
-              <h4>Inside the Old Robot Racer's Hood</h4>
+              <h4>Under the Old RobotRacer's Hood</h4>
             </div>
           </div>
         
@@ -235,7 +237,9 @@
   </div>
 </div>
 </section>
+</section>    
 
+<section id ="personal">
 <section id="robotarm">
   <div class="container">
     <h1 style="margin-top:100px">
@@ -262,44 +266,44 @@
           <li>Plastic chassis</li>
           <li>LCD Monitor for testing</li>
         </ul>
-      </div>
-    
+      </div> 
         <div class="col-md-6">
         <font size="5">Gallery</font>
-        <div id="deskarm" class="carousel slide" data-ride="carousel">
+        <div id="carousel-deskarm" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
-            <li data-target="#carousel-atmega" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-atmega" data-slide-to="1"></li>
+            <li data-target="#carousel-deskarm" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-deskarm" data-slide-to="1"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="assets/images/atmega/board.jpg" style="width:555px;height:409px;display:block;margin-left:auto;margin-right:auto;">
+              <img src="assets/images/miniarm/pic0.jpg" style="width:554px;height:563px;center;overflow: hidden;" >
               <div class="carousel-caption">
-                <h4>EAGLE Board File</h4>
+                <h4>Inspiration</h4>
               </div>
             </div>
             <div class="item">
-              <img src="assets/images/atmega/schematic.jpg" style="width:555px;height:409px;display:block;margin-left:auto;margin-right:auto;">
+              <img src="assets/images/miniarm/pic1.jpg" style="width:554px;height:563px;center;overflow: hidden;">
               <div class="carousel-caption">
-                <h4>EAGLE Schematic File</h4>
+                <h4>Inspiration</h4>
               </div>
             </div>
           </div>
 
           <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-atmega" data-slide="prev">
+          <a class="left carousel-control" href="#carousel-deskarm" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
-          <a class="right carousel-control" href="#carousel-atmega" data-slide="next">
+          <a class="right carousel-control" href="#carousel-deskarm" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
       </div>
     </div>
   </div>
+            
 </section>
 
 <section id="dogebot">
@@ -336,31 +340,33 @@
       </div>
       <div class="col-md-6">
         <font size="5">Gallery</font>
-        <div id="carousel-musicplayer" class="carousel slide" data-ride="carousel">
+        <div id="carousel-dogebot" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-musicplayer" data-slide-to="0" class="active"></li>
+           <!--
+            <ol class="carousel-indicators">
+            <li data-target="#carousel-dogebot" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-dogebot" data-slide-to="1"></li>
           </ol>
+            -->
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner">
+            <div class="carousel-dogebot">
             <div class="item active">
-              <img src="assets/images/musicplayer/oldradio_icon.jpg" style="width:555px;height:409px;display:block;margin-left:auto;margin-right:auto;">
+              <img src="assets/images/dogebot/pic0.jpg" style="width:556px;height:480px">
               <div class="carousel-caption">
-                <h4></h4>
+                <h4>Sketch of Robot Design</h4>
               </div>
             </div>
-          </div>
+            </div>
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-musicplayer" data-slide="prev">
+        <!-- Controls -->
+        <!--  <a class="left carousel-control" href="#carousel-dogebot" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
-          <a class="right carousel-control" href="#carousel-musicplayer" data-slide="next">
+          <a class="right carousel-control" href="#carousel-dogebot" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
-        </div>
-      </div>
+        -->
     </div>
   </div>
 </section>
@@ -370,9 +376,10 @@
     <h1 style="margin-top:100px">
       <b>PCB Line Following Robot</b>
     </h1>
-    <span class="label label-info" style="font-size:medium">Completed</span>
-    <a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
-      <b><i class="fa fa-hand-o-up"></i> Projects</b>
+      <span class="label label-default" style="font-size:medium">Relevant School Project</span>
+      <span class="label label-success" style="font-size:medium">Completed</span>
+    <!--<a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <b><i class="fa fa-hand-o-up"></i> Projects</b>-->
     </a>
     <hr class="style-three">
     <div class="row">
@@ -384,7 +391,7 @@
         <font size="5">Materials</font>
         <ul>
           <li>PCB</li>
-          <li>PIC Microchip</li>
+          <li>PIC16F873A Microchip</li>
           <li>Hacked Servos (Continuous)</li>
           <li>Small Servo Motor</li>
           <li>9V Power Source</li>
@@ -393,35 +400,43 @@
           <li>Hall Effect Sensors</li>
         </ul>
       </div>
-      <div class="col-md-6">
+       <div class="col-md-6">
         <font size="5">Gallery</font>
-        <div id="carousel-musicplayer" class="carousel slide" data-ride="carousel">
+        <div id="carousel-pcbbot" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
-            <li data-target="#carousel-musicplayer" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-pcbbot" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-pcbbot" data-slide-to="1"></li>
           </ol>
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner" style="width:555px;height:350px;">
+          <div class="carousel-inner">
             <div class="item active">
-              <img src="assets/images/spock/spock_icon.jpg" style="display:block;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <img src="assets/images/pcbrobot/pic0.jpg" style="width:560px;height:434px;overflow: hidden;">
               <div class="carousel-caption">
-                <h4></h4>
+                <h4>Top View of PCB Robot</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/pcbrobot/pic1.jpg" style="width:560px;height:434px;overflow: hidden;">
+              <div class="carousel-caption">
+                <h4>Bottom View of PCB Robot</h4>
               </div>
             </div>
           </div>
 
           <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-musicplayer" data-slide="prev">
+          <a class="left carousel-control" href="#carousel-pcbbot" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
-          <a class="right carousel-control" href="#carousel-musicplayer" data-slide="next">
+          <a class="right carousel-control" href="#carousel-pcbbot" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
       </div>
     </div>
   </div>
+</section>
 </section>
 
 
