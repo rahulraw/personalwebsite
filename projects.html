@@ -5,7 +5,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/styles.css" rel = "stylesheet">
-                <link rel="icon" href="assets/images/electronics.png.">
+                <link rel="icon" href="assets/images/electronics.png">
                 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -89,13 +89,13 @@
 
                 <!-- _____________________________OVERHEARD ENDS________________________________ -->
 
-<div class = "jumbotron">
-                        <center><h1>Projects</h1>
-                        <p> A list of current and ongoing projects</p>
-                        <a class = "btn btn-primary" href = "#studentdesign">Student Design Teams</a>
-                        <a class = "btn btn-warning" href = "#personal">Personal Projects</a></center>
-</div>
-       
+    <div class = "jumbotron">
+                            <center><h1>Projects</h1>
+                            <p> A list of current and ongoing projects</p>
+                            <a class = "btn btn-primary" href = "#studentdesign">Student Design Teams</a>
+                            <a class = "btn btn-warning" href = "#personal">Personal Projects</a></center>
+    </div>
+ 
 <section id="studentdesign">
 <section id="marsrover">
   <div class="container">
@@ -128,7 +128,7 @@
       </div>
 
       <div class="col-md-6">
-        <font size="5">Gallery</font>
+        
         <div id="carousel-marsrover" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -164,8 +164,7 @@
   </div>
   </div>
 </section>
-      
-
+          
 <section id="robotracing">
   <div class="container">
     <h1 style="margin-top:100px">
@@ -194,7 +193,7 @@
         </p>
     </div>
     <div class="col-md-6">
-      <font size="5">Gallery</font>
+      
       <div id="carousel-robotracing" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -206,7 +205,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <img src="assets/images/robotracing/pic0.jpg" style="width:560px;height:434px;center;">
+            <img src="assets/images/robotracing/pic0.jpg" style="width:560px;height:434px;center;overflow: hidden;">
             <div class="carousel-caption">
               <h4>New RobotRacer Design</h4>
             </div>
@@ -238,6 +237,153 @@
 </section>
 </section>    
 
+<section id ="personal">
+<section id="adventure">
+  <div class="container">
+    <h1 style="margin-top:100px">
+      <b>adVentuRe: Mutliaxis Robotic Telepresence System</b>
+    </h1>
+    <span class="label label-warning" style="font-size:medium">Hack</span>
+    <span class="label label-success" style="font-size:medium">Completed: 50 Hours</span>
+    <!--<a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <b><i class="fa fa-hand-o-up"></i> Projects</b>
+    </a>-->
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p><a href="http://www.adventurevr.co/">Project Website</a></p>
+        <p>
+          adVentuRe was created by me and group of 3 other robot enthusiasts during the 2015 Hack The North event. The adventure VR is a telepresence system that allows for a user to immerse himself into a far off location through telepresence. The system consists of a Oculus Rift VR headset which is used in the base station where the user resides. At a far off distant location, a stereo camera is mounted on a multi axis gimble (which in our case was attached to a mobile robot). The head motions are recorded in the Oculus Rift's IMU and tranferred as motion on the camera gimble. The stereo camera relay data to the Oculus allowing for 3D immersion. My role in the team was the develop the software which allowed the camera's data streams two be displayed on the two different lenses of the Oculus headset. In addition, I also created software which read the IMU data and moved the gimble. A demonstration of the hack can be seen <a href="https://www.youtube.com/watch?v=lySgZyGYljc" target="new">here</a>
+        </p>
+        <font size="5">Materials</font>
+        <ul>
+          <li>Oculus Rift</li>
+          <li>Ubuntu Latop with ROS (Robotics Operating System) </li>
+          <li>Gimble</li>
+          <li>2 Webcam Camera</li>
+          <li>Mobile Robot (optional)</li>
+        </ul>
+      </div> 
+        <div class="col-md-6">
+        
+        <div id="carousel-adventure" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-adventure" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-adventure" data-slide-to="1"></li>
+            <li data-target="#carousel-adventure" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/adventure/pic0.jpg" style="width:600px;height:500px;center;overflow: hidden;" >
+              <div class="carousel-caption">
+                <h4>Gimble on Mobile Base</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/adventure/pic1.jpg" style="width:600px;height:500px;center;overflow: hidden;">
+              <div class="carousel-caption">
+                <h4>Controlling the Telepresence System</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/adventure/pic2.jpg" style="width:600px;height:500px;center;overflow: hidden;">
+              <div class="carousel-caption">
+                <h4>Hard at Work</h4>
+              </div>
+            </div>
+          </div>
+            </div>
+          
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-adventure" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-adventure" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>    
+</section>
+
+<section id="icu">
+  <div class="container">
+    <h1 style="margin-top:100px">
+      <b>I.C.U. - Intruder Compliance Undertaker</b>
+    </h1>
+    <span class="label label-warning" style="font-size:medium">Hack</span>
+    <span class="label label-success" style="font-size:medium">Completed: 62 Hours</span>
+    <!--<a href="#projects" class="label label-danger page-scroll" style="font-size:medium">
+      <b><i class="fa fa-hand-o-up"></i> Projects</b>
+    </a>-->
+    <hr class="style-three">
+    <div class="row">
+      <div class="col-md-6">
+        <font size="5">Description</font>
+        <p>
+        <a href="http://devpost.com/software/icubot"><strong>Winner of Best Microsoft Hack @ Hack Princeton!</strong></a>
+        </p>
+        <p>
+          This hack landed me my first win at an Official Major League Hacking Event! We built a home security system using Microsoft's Azure and Kinect platforms and the Twitter API. We put together a robot that can detect intruders using human detection on the KinectOne (made for the Xbox One) which send data to a Azure server. This server send a tweet to the house owner's twitter account with the picture of the intruder exposing the cuplrit's identity and letting the homeowner know that the robot is on the case! My role in the hackathon team was to build the robot's controls that allow the robot to recieve the flask server's movement commands and execute them. The robot than chases down the robot and secures the house! Check our the project's comical demonstration video <a href="https://www.youtube.com/watch?v=KbHtfNUb3GU" target="new">here</a>
+        </p>
+         <font size="5">Materials</font>
+        <ul>
+          <li>Microsoft Kinect</li>
+          <li>Microsoft Azure </li>
+          <li>Windows Laptop</li>
+          <li>Razbot2 (my open source project)</li>
+          <li>Flask Server</li>
+          <li>Microsoft Azure </li>
+          <li>Ethernet Cables</li>
+        </ul>
+      </div> 
+        <div class="col-md-6">
+        
+        <div id="carousel-icu" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-icu" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-icu" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/icu/pic0.jpg" style="width:560px;height:434px;overflow:hidden;">
+              <div class="carousel-caption">
+                <h4>Finished Product</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/icu/pic1.jpg" style="width:560px;height:434px;overflow:hidden;">
+              <div class="carousel-caption">
+                <h4>Working with Raspbian</h4>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-icu" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-icu" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+            
+            
 <section id ="personal">
 <section id="pacmanai">
   <div class="container">
@@ -301,7 +447,7 @@
   </div>
             
 </section>
-
+            
 <section id ="personal">
 <section id="robotarm">
   <div class="container">
@@ -331,7 +477,7 @@
         </ul>
       </div> 
         <div class="col-md-6">
-        <font size="5">Gallery</font>
+        
         <div id="carousel-deskarm" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -368,7 +514,9 @@
   </div>
             
 </section>
+</section>
 
+<section id="personal">
 <section id="dogebot">
   <div class="container">
     <h1 style="margin-top:100px">
@@ -402,7 +550,7 @@
         <i>This intensive project was created in hopes to push the limits of my knowledge in robotic controls, computer vision and machine learning. Currently in the design phase.</i>
       </div>
       <div class="col-md-6">
-        <font size="5">Gallery</font>
+        
         <div id="carousel-dogebot" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
            <!--
@@ -464,7 +612,7 @@
         </ul>
       </div>
        <div class="col-md-6">
-        <font size="5">Gallery</font>
+        
         <div id="carousel-pcbbot" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -501,10 +649,6 @@
   </div>
 </section>
 </section>
-
-
-
-
 
 
  <!--________________________Underhead Begins ________________________-->
